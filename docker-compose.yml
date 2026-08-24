@@ -1,10 +1,10 @@
 version: "3.8"
 
 services:
-  # web : 
-    # image: "om4426/notes-app:latest"
-    # ports : 
-    #   - "8000:8000"
+  web : 
+    image: "om4426/notes-app:latest"
+    ports : 
+      - "8000:8000"
   nginx:
     build: ./nginx
     image: nginx
